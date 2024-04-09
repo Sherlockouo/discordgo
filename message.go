@@ -152,7 +152,7 @@ type Message struct {
 	StickerItems []*StickerItem `json:"sticker_items"`
 
 	// Nonce
-	Nonce string `json:"nonce,omitempty"`
+	Nonce string `json:"nonce"`
 }
 
 // UnmarshalJSON is a helper function to unmarshal the Message.
