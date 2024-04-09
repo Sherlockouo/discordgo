@@ -236,7 +236,7 @@ type Interaction struct {
 	Token   string `json:"token"`
 	Version int    `json:"version"`
 
-	Nonce string `json:"nonce"`
+	Nonce string `json:"nonce,omitempty"`
 }
 
 type interaction Interaction
